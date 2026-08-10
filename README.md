@@ -1,4 +1,3 @@
-````markdown
 # Gestión y Protección de Contenidos Digitales
 
 Sistema DRM (Digital Rights Management) desarrollado en Python para proteger contenidos digitales mediante cifrado y descifrado, gestión de licencias, autenticación y marca de agua.
@@ -27,94 +26,84 @@ El sistema implementa diferentes mecanismos de seguridad para garantizar que ún
 - Marca de agua digital
 - Gestión de contenidos multimedia
 
-## Estructura del proyecto
+## Funcionamiento
 
-Los archivos principales del sistema se encuentran dentro de la carpeta `funcionamiento/`.
-
-funcionamiento/
-├── generar_claves.py
-├── generar_base_licencias.py
-├── cifrar_contenido.py
-├── contenido_servidor.py
-├── servidor_licencias.py
-├── modulo_descifrado.py
-└── aplicacion_usuario.py
-````
-
-## Orden de ejecución
-
-Para ejecutar correctamente el sistema, los archivos deben ejecutarse en el siguiente orden:
-
-1. `generar_claves.py`
-2. `generar_base_licencias.py`
-3. `cifrar_contenido.py`
-4. `contenido_servidor.py`
-5. `servidor_licencias.py`
-6. `modulo_descifrado.py`
-7. `aplicacion_usuario.py`
+El sistema está compuesto por diferentes módulos que permiten realizar el proceso completo de protección y acceso al contenido digital.
 
 ### Generación de claves
 
-`generar_claves.py`
+`generar_claves`
 
 Se encarga de generar las claves criptográficas necesarias para el funcionamiento del sistema.
 
 ### Generación de licencias
 
-`generar_base_licencias.py`
+`generar_base_licencias`
 
 Genera la base de licencias utilizada para controlar los permisos de acceso al contenido protegido.
 
 ### Cifrado del contenido
 
-`cifrar_contenido.py`
+`cifrar_contenido`
 
 Se encarga de cifrar el contenido digital para impedir su acceso directo sin autorización.
 
-### Gestión del contenido en el servidor
+### Contenido del servidor
 
-`contenido_servidor.py`
+`contenido_servidor`
 
 Gestiona el contenido protegido dentro del sistema y forma parte del flujo de acceso al contenido digital.
 
 ### Servidor de licencias
 
-`servidor_licencias.py`
+`servidor_licencias`
 
 Gestiona las licencias y las solicitudes de autorización necesarias para acceder al contenido protegido.
 
-### Descifrado
+### Módulo de descifrado
 
-`modulo_descifrado.py`
+`modulo_descifrado`
 
 Realiza el proceso de descifrado del contenido una vez que se ha autorizado el acceso.
 
 ### Aplicación de usuario
 
-`aplicacion_usuario.py`
+`aplicacion_usuario`
 
 Es el punto de acceso del usuario al sistema DRM. Utiliza los diferentes componentes desarrollados para realizar el proceso de autenticación, validación de licencia y acceso al contenido protegido.
+
+## Orden de ejecución
+
+Para ejecutar correctamente el sistema, los archivos deben ejecutarse en el siguiente orden:
+
+1. `generar_claves`
+2. `generar_base_licencias`
+3. `cifrar_contenido`
+4. `contenido_servidor`
+5. `servidor_licencias`
+6. `modulo_descifrado`
+7. `aplicacion_usuario`
 
 ## Flujo del sistema
 
 El funcionamiento general del sistema sigue el siguiente flujo:
 
-Contenido original
-↓
-Generación de claves
-↓
-Generación de licencias
-↓
-Cifrado del contenido
-↓
-Gestión del contenido en el servidor
-↓
-Solicitud y validación de licencia
-↓
-Autenticación del usuario
-↓
-Descifrado
-↓
+Contenido original  
+↓  
+Generación de claves  
+↓  
+Generación de licencias  
+↓  
+Cifrado del contenido  
+↓  
+Gestión del contenido en el servidor  
+↓  
+Solicitud y validación de licencia  
+↓  
+Autenticación del usuario  
+↓  
+Descifrado  
+↓  
 Acceso al contenido protegido
 
 ## Protección mediante marca de agua
@@ -131,11 +120,15 @@ Participación en el desarrollo del sistema DRM, incluyendo la implementación y
 
 El proyecto permite demostrar un flujo completo de protección de contenido digital, desde la generación de claves y el cifrado inicial hasta la gestión de licencias, autenticación, descifrado y acceso final al contenido protegido.
 
-También se incluye una demostración en vídeo del funcionamiento del sistema.
+## Material del proyecto
+
+El material completo del proyecto, incluyendo los archivos de funcionamiento, memoria y material audiovisual, se encuentra disponible en el siguiente enlace:
+
+' https://drive.google.com/drive/folders/1zU0BQ-O6aBBd0IZVFKZV3ncp8JXDdlV7?usp=sharing '
 
 ## Documentación
 
-Se incluye la memoria técnica del proyecto, donde se explica con mayor detalle el diseño, funcionamiento e implementación del sistema DRM.
+La memoria técnica recoge información sobre el diseño, funcionamiento e implementación del sistema DRM, así como los diferentes mecanismos de protección utilizados.
 
 ## Proyecto académico
 
