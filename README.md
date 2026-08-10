@@ -1,27 +1,4 @@
-Sí, perfecto: **no se llama `proyecto/`, sino `funcionamiento/`**. Entonces cambia únicamente esa parte del README.
-
-La estructura correcta sería:
-
-```text
-funcionamiento/
-├── generar_claves.py
-├── generar_base_licencias.py
-├── cifrar_contenido.py
-├── contenido_servidor.py
-├── servidor_licencias.py
-├── modulo_descifrado.py
-└── aplicacion_usuario.py
-```
-
-Y en el README, donde pone:
-
-> Los archivos principales del sistema se encuentran dentro de la carpeta `proyecto/`.
-
-debe poner:
-
-> Los archivos principales del sistema se encuentran dentro de la carpeta `funcionamiento/`.
-
-### README completo corregido
+### README
 
 ````markdown
 # Gestión y Protección de Contenidos Digitales
