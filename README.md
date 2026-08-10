@@ -31,7 +31,6 @@ El sistema implementa diferentes mecanismos de seguridad para garantizar que ún
 
 Los archivos principales del sistema se encuentran dentro de la carpeta `funcionamiento/`.
 
-```text
 funcionamiento/
 ├── generar_claves.py
 ├── generar_base_licencias.py
@@ -141,6 +140,3 @@ Se incluye la memoria técnica del proyecto, donde se explica con mayor detalle 
 ## Proyecto académico
 
 Proyecto desarrollado durante el Grado en Tecnología Digital y Multimedia de la Universitat Politècnica de València.
-
-```
-```
