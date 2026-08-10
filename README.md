@@ -1,5 +1,3 @@
-### README
-
 ````markdown
 # Gestión y Protección de Contenidos Digitales
 
@@ -145,6 +143,4 @@ Se incluye la memoria técnica del proyecto, donde se explica con mayor detalle 
 Proyecto desarrollado durante el Grado en Tecnología Digital y Multimedia de la Universitat Politècnica de València.
 
 ```
-
-Así queda **`funcionamiento/` en todo el README**, que es el nombre real de la carpeta.
 ```
